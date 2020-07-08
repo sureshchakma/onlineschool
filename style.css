@@ -79,7 +79,6 @@ footer{
 .btn-primary:hover, .btn-primary:focus {
     background-color: #34b67b;
     border-color: none;
-    box-shadow: none;
 }
 .btn-primary:not(:disabled):not(.disabled):active{
     background-color: #21B573;
@@ -116,36 +115,33 @@ a.navbar-brand {
 }
 
 /*summery card */
-.summery-section img.card-img-top {
+ img.card-img-top {
     max-width: 80px;
     margin: 0 auto;
     max-height: 122px;
+    border: none;
 }
-.summery-section .card-body {
+.card-body {
     text-align: center;
     padding: 30px;
+    position: absolute;
 }
-.summery-section .card img {
+.card img {
     padding-top: 40px;
 }
-.summery-section .card{
+.card{
     border:none;
     transition: .2s ease;
     background: #F8FFFB;
 }
-.summery-section .card:hover{
+.card:hover{
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 /* book card */
-.book-section .card-img-top {
-    padding: 20px;
-}
-.book-section .card-body {
-    padding-top: 0px;
-}
+
 .card-title {
     margin-bottom: 0;
     color: #413960;
@@ -155,12 +151,7 @@ a.navbar-brand {
     line-height: 36px;
     margin-top: 20px;
 }
-.book-section .card {
-    border: none;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 18px;
-}
+
 .icon-pic{
     width: 20px;
     height: 20px;
@@ -176,11 +167,11 @@ a.navbar-brand {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgrey;
+    
 
 }
+
+
 .card-icon {
     display: flex;
     justify-content: space-between;
