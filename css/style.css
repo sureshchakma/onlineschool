@@ -40,7 +40,6 @@ p{
 }
 .footer-padding{
     padding: 45px 0 20px 0;
-
 }
 .section-padding{
     padding: 63px 0;
@@ -59,9 +58,6 @@ section.header-section {
 }
 footer{
     background: #282531;
-}
-.card-deck{
-    margin-top: 20px;
 }
 
 /* button */
@@ -153,7 +149,6 @@ a.navbar-brand {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    margin-top: 20px;
 }
 .book-section .card {
     border: none;
@@ -176,16 +171,12 @@ a.navbar-brand {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgrey;
-
 }
 .card-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* testimonial */
@@ -201,7 +192,6 @@ a.navbar-brand {
     max-width: 70%;
     height: auto;
 }
-
 
 /* footer */
 
